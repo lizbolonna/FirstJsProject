@@ -1,0 +1,39 @@
+body{
+	overflow-x:hidden;
+	 background: url( pictures/fon.jpg)  no-repeat fixed; 	 
+	 background-attachment: scroll;
+	-webkit-background-size: 50%;
+        -moz-background-size:25%;
+        -o-background-size: 25%;
+        background-size: 100%
+		
+}
+.pic{
+	margin-left:20px;
+	margin-top:20px;
+}
+.main{
+	margin-top:-300px;
+	margin-left:680px;
+	color:#ffffff;
+	font-family: 'Old Standard TT', serif;
+	font-size:36px;
+}
+.text{
+	margin-top:-50px;
+	margin-left:800px;
+	color:#ffffff;
+	font-family: 'Bad Script', cursive;
+	font-size:36px;
+}
+.nomer{
+	margin-top:-40px;
+	margin-left:950px;
+	color:#ffffff;
+	font-family: 'Bad Script', cursive;
+	font-size:36px;
+}
+.sosiel{
+	margin-top:-500px;
+	margin-left:0px;
+}
