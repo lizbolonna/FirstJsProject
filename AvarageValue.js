@@ -1,7 +1,11 @@
-var arr = [1,2,3,4,5,6]; //Создаем массив
-function Number (arr) {
-for (var i=0; var j=i+1; i++) // условие і-счетчик, j- счетчик, что бы взяьб следующее значение, і++ - что бы цикл крутился дальше
-{
-var y=arr[i]+arr[j]; // суммируем значения 
-console.log()}
+
+var arr = [5,5,5,5];
+var sum = 0;
+
+
+for(var i = 0; i < arr.length; i++){
+	var k = sum += arr[i];
+	var v = k/arr.length;
 }
+
+console.log(v);
