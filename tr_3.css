@@ -1,0 +1,68 @@
+body{
+	background:#000000;
+}
+.red {
+background:#8D0606;
+height:50px;
+width:50px;
+border-radius:50%;
+border: 5px solid #fff;
+ -webkit-animation-duration: 5s;
+  -webkit-animation-name: red;
+  -webkit-animation-iteration-count: infinite;
+}
+.yellow{
+	border-radius:50%;
+	background:#D7DF01;
+	height:50px;
+width:50px;
+border: 5px solid #fff;
+ -webkit-animation-duration: 5s;
+  -webkit-animation-name: yellow;
+  -webkit-animation-iteration-count: infinite;
+}
+.green{
+	border-radius:50%;
+	background:#0B6121;
+	height:50px;
+width:50px;
+border: 5px solid #fff;
+ -webkit-animation-duration: 5s;
+  -webkit-animation-name: green;
+  -webkit-animation-iteration-count: infinite;
+}
+@-webkit-keyframes red{
+            0%{opacity: 1;}
+            
+            40%{opacity: 1;}
+			
+            60%{opacity: .1;}
+            
+            100%{opacity: .1;}
+        }
+
+        @-webkit-keyframes yellow{
+            0%{opacity: .1;}
+           
+            40%{opacity: 1;}
+            
+            60%{opacity: .1;}
+            
+            100%{opacity: .1;}
+        }
+
+        @-webkit-keyframes green{
+            0%{opacity: .1;}
+            
+            40%{opacity: .1;}
+           
+            80%{opacity: 1;}
+			
+            85%{opacity: .1;}
+			
+            90%{opacity: 1;}
+			
+            95%{opacity: .1;}
+			
+            100%{opacity: 1;}
+        }
