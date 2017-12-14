@@ -3,13 +3,14 @@
   <head>
     <title>Traffic lighter</title>
   </head>
-  <body>
-  <center><div class="colors">
-  <div id="red"> <img src = "picture\red.jpg"></div>
-  <div ><img  id="yellow" src = "picture\orange.jpg"></div>
-  <div><img id="green" src = "picture\green.jpg"></div>
-  </div></center>
-  <script>
+  	<body>
+  	<center><div class="colors">
+  		<div id="red"> <img src = "picture\red.jpg"></div>
+ 	 	<div ><img  id="yellow" src = "picture\orange.jpg"></div>
+  		<div><img id="green" src = "picture\green.jpg"></div>
+ 	 	</div>
+		</center>
+  	<script>
   
 
 
@@ -17,38 +18,24 @@ var color1 = document.getElementById("red");
 
  var timer = setInterval(function(){
        document.body.style.display = "block"} ,3000);
-	   
        setInterval(function(){
-            document.body.style.display  = "none";
-			
+            document.body.style.display  = "none";		
         },3000);
-
-    
 	var color2 = document.getElementById("yellow"); 
 
- var timer2 = function(){
- 
-	setInterval(function()
- {
-       document.body.style.display = "block"} ,3000);
-	   
-       setInterval(function(){
-            document.body.style.display  = "none";
-			
+ var timer2 = function()
+	setInterval(function(){
+		document.body.style.display = "block"} ,3000);
+      		 setInterval(function(){
+           	 document.body.style.display  = "none";	
         },5000);
-	 }
-       
-	var color3 = document.getElementById("green"); 
+var color3 = document.getElementById("green"); 
 
- var timer3 = setInterval(function()
- {
-       document.body.style.display = "block"} ,3000);
-	   
+ var timer3 = setInterval(function(){
+       document.body.style.display = "block"} ,3000); 
        setInterval(function(){
-            document.body.style.display  = "none";
-			
-        },5000);
-	 
+       document.body.style.display  = "none";	
+        },5000); 
   </script>
   </body>
 </html>
