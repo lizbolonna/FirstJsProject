@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+    <title>Forms</title>
+
+    
+	<script src="jquery-3.2.1.min.js"></script>
+	
+	
+   
+	<link href="guest.css" rel="stylesheet">
+	
+	
+  </head>
+  <body>
+ <div class="subscriber">
+<form  id = myForm method="post" action="elizaveta.android@gmail.com">
+	<div class="name"><input  type="name" required autofocus name="Имя" placeholder="Введите Ваше имя"></div>
+	
+	<div class = "email"><input  type="e-mail" required name="E-mail" placeholder="Введите Ваш e-mail"></div>
+	<p><textarea required  name="text" placeholder="Опишите Вашу проблему"></textarea></p>
+	<p></p>
+	<input type="submit" value="Отправить" onclick = "WriteAll()">
+	</form>
+	
+	</div>
+	
+	
+	<script> 
+	function WriteAll(){
+	// сериализация массива с помощью jquery
+var data = $('#myForm').serializeArray();
+// вывести каждое значение инпута
+$.each(data,function(){
+var publ = document.write ("" + (this.name+'='+this.value));
+;
+});
+}
+</script>
+
+
+
+ 
+  <script src="http://code.jquery.com/jquery-latest.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+	
+  </body>
+</html>
